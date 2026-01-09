@@ -4,14 +4,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-#page-wraper {
-    background: url(../images/page-bg2.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjxsI1wk.woff2') format('woff2');
 }
 
 
@@ -141,7 +138,7 @@ html {
 }
 
 .menu .author-content {
-    margin: 40px 0px 60px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .menu .author-content h4 {
@@ -150,7 +147,7 @@ html {
 
 .menu .author-content span {
     font-size: 13px;
-    font-style: italic;
+    
     color: #fff;
 }
 
@@ -300,7 +297,23 @@ html {
     line-height: 60px;
 }
 
-
+.cv-download-btn {
+    color: #fff !important;
+    
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    background: transparent;
+}
+.cv-download-btn:hover {
+    
+    color: #265a7d !important;
+    background: #fff;
+}
 /* Section */
 
 .section {
